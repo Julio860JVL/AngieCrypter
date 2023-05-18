@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Angie
+﻿namespace AngieCrypter
 {
     internal class ChangeColor
     {

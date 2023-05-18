@@ -1,4 +1,4 @@
-﻿namespace Angie
+﻿namespace AngieCrypter
 {
     internal class Crypto
     {

@@ -1,8 +1,13 @@
-﻿namespace Angie
+﻿namespace AngieCrypter
 {
     internal class AtoZ
     {
-        // letters (a thru z) swapped.
+        // Letters (a thru z) swapped.
+        // 'char*' is the original character and 'mod*' is the modified character.
+        // In order for this to work the letter cannot be duplicated.
+        // Example, you cannot swap letter 'n' for 't'
+        // and then swap letter 'p' for 't'
+        // because 't' has been assigned to letter 'n' already.
         internal static char charA = 'a';
         internal static char modA = 'k';
 
