@@ -426,9 +426,10 @@
             }
             
             Console.WriteLine();
-            Console.Write("\\|/\\|/\\|/\\|/-- ");
+            Console.Write(@"\|/\|/\|/\|/-- ");
             ChangeColor.Red("ENCRYPTED MESSAGE");
-            Console.WriteLine(" --\\|/\\|/\\|/\\|/\n");
+            Console.WriteLine(@" --\|/\|/\|/\|/");
+            Console.WriteLine();
 
             foreach (char c in msgToEncrypt)
             {
@@ -436,9 +437,10 @@
             }
 
             Console.WriteLine("\n");
-            Console.Write("/|\\/|\\/|\\/|\\-- ");
+            Console.Write(@"\|/\|/\|/\|/-- ");
             ChangeColor.Red("ENCRYPTED MESSAGE");
-            Console.WriteLine(" --/|\\/|\\/|\\/|\\\n");
+            Console.WriteLine(@" --\|/\|/\|/\|/");
+            Console.WriteLine();
         }
     }
 }
