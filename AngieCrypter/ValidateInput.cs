@@ -2,8 +2,7 @@
 {
     class Validate
     {
-        //static string userInput = Crypto.EncryptDecrypt();
-        public static void Input(string userInput)
+        internal static void Input(string userInput)
 		{
 			switch (userInput)
 			{
