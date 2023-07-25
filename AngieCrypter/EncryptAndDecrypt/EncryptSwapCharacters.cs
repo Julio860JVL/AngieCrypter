@@ -1,6 +1,6 @@
 ﻿namespace AngieCrypter
 {
-    internal class EncryptSwap
+    class EncryptSwap
     {
         internal static void Characters()
         {

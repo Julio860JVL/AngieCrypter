@@ -1,8 +1,8 @@
 ﻿namespace AngieCrypter
 {
-    internal class Decrypt
+    class Decrypt
     {
-        public static void EncryptedMsg()
+        internal static void EncryptedMsg()
         {
             Console.WriteLine("Copy paste the msg to decrypt:");
             DecryptSwap.AllCharacters();

@@ -1,14 +1,14 @@
 ﻿namespace AngieCrypter
 {
-    internal class ChangeColor
+    class ChangeColor
     {
-        public static void Red(string a)
+        internal static void Red(string a)
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write(a);
             Console.ResetColor();
         }
-        public static void Green(string a)
+        internal static void Green(string a)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(a);

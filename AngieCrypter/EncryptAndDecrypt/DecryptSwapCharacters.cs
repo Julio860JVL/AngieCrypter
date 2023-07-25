@@ -1,6 +1,6 @@
 ﻿namespace AngieCrypter
 {
-    internal class DecryptSwap
+    class DecryptSwap
     {
         internal static void AllCharacters()
         {
@@ -8,7 +8,7 @@
 
             for (int i = 0; i < msgToDecrypt.Length; i++)
             {
-                // letters (a thru z) swapped back to the uncrypted version,
+                // letters (a thru z) swapped back to the unencrypted version,
                 // unless the message has been encrypted more than 1 time,
                 // then it needs to be decrypted again the same amount of times it was encrypted.
                 if (msgToDecrypt[i] == AtoZ.modA)
