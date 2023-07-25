@@ -1,13 +1,25 @@
 ﻿namespace AngieCrypter
 {
-    internal class AtoZ
+    class AtoZ
     {
         // Letters (a thru z) swapped.
-        // 'char*' is the original character and 'mod*' is the modified character.
-        // In order for this to work the letter cannot be duplicated.
-        // Example, you cannot swap letter 'n' for 't'
-        // and then swap letter 'p' for 't'
-        // because 't' has been assigned to letter 'n' already.
+        // Do not change the values of 'char*' as those are the original characters.
+        // The variables to be modified are 'mod*'.
+        //
+        // In order for this to work, the swapped letters cannot be duplicated.
+        //
+        // Example: If you swap letter 'modN' for 't' then,
+        // you cannot use the letter 't' in any other character,
+        // because 't' has been assigned to letter 'modN' already.
+        //
+        // And while you can actually do a duplicated swap,
+        // what it will end up happening is the encryption wont work because
+        // the duplicated letters will end up being the same letter and the message wont be
+        // human-readable at the moment of decrypting the message.
+        //
+        // The way I made sure I wasn't duplicating the letters was by typing all the letters
+        // in a text editor and deleting them from the text editor as I inserted them in the code.
+
         internal static char charA = 'a';
         internal static char modA = 'k';
 

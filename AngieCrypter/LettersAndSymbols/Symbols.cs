@@ -1,11 +1,17 @@
 ﻿namespace AngieCrypter
 {
-    internal class Symbols
+    class Symbols
     {
         // special characters (starting with a space).
         //  ~!@#$%^&*()_+{}|:"<>?`1234567890-=[]\;',./
+        //
+        // Swap this characters with the same concept as the letters
+        // (do not repeat/duplicate the characters).
+        // And do not change the variables starting with 'char' because those are the
+        // official real characters. You must only swap/change the variables starting with 'mod'. 
+
         internal static char charSpace = ' ';
-        internal static char modSpace = '\u221E';
+        internal static char modSpace = '\u221E'; // <-- Infinity symbol.
 
         internal static char charTilde = '~';
         internal static char modTilde = '`';
@@ -70,9 +76,9 @@
         internal static char charQuestion = '?';
         internal static char modQuestion = ',';
 
-        internal static char charBacktick = '`';//<--- Backtick stays the same.
-        internal static char modBacktick = '~';//<-- Because 'charTilde' swaps 'charSpace'.
-                                              // and 'charTilde' is the same key as 'charBacktick'.
+        internal static char charBacktick = '`';
+        internal static char modBacktick = '~';
+
         internal static char charNum1 = '1';
         internal static char modNum1 = '!';
 
