@@ -6,5 +6,6 @@ while (true)
     // This first line of code also calls the method 'Crypto.EncryptDecrypt()'.
     string userInput = Crypto.EncryptDecrypt();
 
-    //Validate.Input(userInput);
+    // Git conflict test_v1.
+    Validate.Input(userInput);
 }
