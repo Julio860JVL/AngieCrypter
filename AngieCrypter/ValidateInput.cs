@@ -1,4 +1,4 @@
-﻿namespace AngieCrypter
+namespace AngieCrypter
 {
     class Validate
     {
@@ -11,9 +11,9 @@
 					break;
 				case "2":
 					Decrypt.EncryptedMsg();
-                    break;
+          break;
 				case "3":
-                    Environment.Exit(0);
+          Environment.Exit(0);
 					break;
 
 				default:
